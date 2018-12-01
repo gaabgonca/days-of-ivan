@@ -12,3 +12,17 @@
   font-size: calc(20px + 4vmin);
   color: #282c34;
 }
+
+.share-text {
+  font-size: calc(10px + 1vmin);
+}
+.share-buttons {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.share-button:hover {
+  opacity: 0.6;
+}
