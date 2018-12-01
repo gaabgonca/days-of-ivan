@@ -27,14 +27,14 @@ class App extends Component {
               <FacebookShareButton
                 className="share-button"
                 url={url}
-                quote={"¿Cuantos días le quedan a Iván Duque? "}
+                quote={"¿Cuántos días le quedan a Iván Duque? "}
               >
                 <FacebookIcon size={32} round />
               </FacebookShareButton>
               <TwitterShareButton
                 className="share-button"
                 url={url}
-                title={"¿Cuantos días le quedan a Iván Duque? " + url}
+                title={"¿Cuántos días le quedan a Iván Duque? " + url}
               >
                 <TwitterIcon size={32} round />
               </TwitterShareButton>
